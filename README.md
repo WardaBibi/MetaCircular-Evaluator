@@ -8,6 +8,6 @@ To apply a compound procedure to a set of arguments, evaluate the body of the pr
 These two rules describe the essence of the evaluation process, a basic cycle in which expressions to be evaluated in environments are reduced to procedures to be applied to arguments, which in turn are reduced to new expressions to be evaluated in new environments, and so on, until we get down to symbols, whose values are looked up in the environment, and to primitive procedures, which are applied directly .This evaluation cycle will be embodied by the interplay between the two critical procedures in the evaluator, eval and apply.
 
 
-         <img width="514" alt="image" src="https://github.com/WardaBibi/MetaCircular-Evaluator/assets/101542862/e4455cf0-b5dc-4ce6-b1ca-e709449c1fe0">
+<img width="514" alt="image" src="https://github.com/WardaBibi/MetaCircular-Evaluator/assets/101542862/e4455cf0-b5dc-4ce6-b1ca-e709449c1fe0">
 
     
